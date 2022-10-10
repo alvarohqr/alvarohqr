@@ -1,14 +1,9 @@
-### Hi there 👋
-
-<!--
-**alvarohqr/alvarohqr** is a ✨ _special_ ✨ repository because its my personal space to share some of my achievements.
+**alvarohqr/alvarohqr** is my personal repository because where I share some of my achievements.
 
 About me:
 
-- 📍 I'm from Cd. Obregón Sonora, Mexico.
-- 🎓 I have a Bachelor's Degree in Mechatronics Engineering.
-- 🔭 I’m currently studying a Master's Dregree on Science in Engineering.
-- 🌱 I’m currently learning C, Python and Java.
+- 📍 I'm 26 and I'm from México.
+- 🎓 I got my Bachelors Degree in Mechatronics at Instituto Tecnológico de Sonora (ITSON).
+- 🔭 I’m currently pursuing a Master's Degree of Sciencie in Engineering.
+- 🌱 I’m currently learning C, Python, SQL and Java.   
 - 📫 How to reach me: alvarohqr@gmail.com
-- ⚡ Fun fact: The One Piece is Real!!!!
--->
