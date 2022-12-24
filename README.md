@@ -12,4 +12,4 @@ About me:
 ![Alvaro's GitHub stats](https://github-readme-stats.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alvarohqr)](https://github.com/alvarohqr/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alvarohqr&theme=merko)](https://github.com/alvarohqr/github-readme-stats)
