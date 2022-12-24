@@ -7,5 +7,6 @@ About me:
 - 🔭 I’m currently pursuing a Master's Degree of Sciencie in Engineering.
 - 🌱 I’m currently learning C, Python, SQL and Java.   
 - 📫 How to reach me: alvarohqr@gmail.com
-- 🏴‍☠️ THE ONE PIECE IS REAL!
-[![Alvaro's GitHub stats](https://github-readme-stats.vercel.app/api?username=alvarohqr)](https://github.com/alvarohqr/github-readme-stats)
+- 🏴‍☠️ THE ONE PIECE IS REAL! \n
+
+![Alvaro's GitHub stats](https://github-readme-stats.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)
