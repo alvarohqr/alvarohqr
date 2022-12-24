@@ -8,9 +8,8 @@ About me:
 - 🌱 I’m interested in C/C++, Python, SQL and Java. 
 - 📫 How to reach me: alvarohqr@gmail.com
 - 🏴‍☠️ THE ONE PIECE IS REAL! 
+[![Alvaro's GitHub stats](https://github-readme-stats.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)]
 
 
-[![Alvaro's GitHub stats](https://github-readme-stats.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alvarohqr&theme=merko)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alvarohqr&theme=merko)](https://github.com/alvarohqr/github-readme-stats)
