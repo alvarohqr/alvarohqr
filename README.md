@@ -1,8 +1,8 @@
-**alvarohqr/alvarohqr** is my personal repository because where I share some of my achievements.
+**alvarohqr/alvarohqr** is my personal repository where I share some of my achievements.
 
 About me:
 
-- 📍 I'm 26 and I'm from México.
+- 📍 I'm 27 and I'm from México.
 - 🎓 I got my Bachelors Degree in Mechatronics at Instituto Tecnológico de Sonora (ITSON).
 - 🔭 I’m currently pursuing a Master's Degree of Sciencie in Engineering.
 - 🌱 I’m interested in C/C++, Python, SQL and Java. 
