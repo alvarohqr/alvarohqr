@@ -6,6 +6,7 @@ About me:
 - 🎓 I got my Bachelors Degree in Mechatronics at Instituto Tecnológico de Sonora (ITSON).
 - 🔭 I’m currently pursuing a Master's Degree of Sciencie in Engineering.
 - 🌱 I’m interested in C/C++, Python, Rust and Java. 
+- 💼 Open to work!
 - 📫 How to reach me: alvarohqr@gmail.com
 - 🏴‍☠️ THE ONE PIECE IS REAL! 
 
