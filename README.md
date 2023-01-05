@@ -5,7 +5,7 @@ About me:
 - 📍 I'm 27 and I'm from México.
 - 🎓 I got my Bachelors Degree in Mechatronics at Instituto Tecnológico de Sonora (ITSON).
 - 🔭 I’m currently pursuing a Master's Degree of Sciencie in Engineering.
-- 🌱 I’m interested in C/C++, Python, SQL and Java. 
+- 🌱 I’m interested in C/C++, Python, Rust and Java. 
 - 📫 How to reach me: alvarohqr@gmail.com
 - 🏴‍☠️ THE ONE PIECE IS REAL! 
 
