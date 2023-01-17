@@ -10,7 +10,7 @@ About me:
 - 📫 How to reach me: alvarohqr@gmail.com
 - 🏴‍☠️ THE ONE PIECE IS REAL! 
 
-[![Alvaro's GitHub stats](https://github-readme-stats-PAT_1.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)
+[![Alvaro's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=alvarohqr&show_icons=true&theme=merko)](https://github.com/anuraghazra/github-readme-stats)
 
 
-[![Top Langs](https://github-readme-stats-PAT_1.vercel.app/api/top-langs/?username=alvarohqr&theme=merko&hide=javascript,assembly)](https://github.com/anuraghazra/github-readme-stats) 
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alvarohqr&theme=merko&hide=javascript,assembly)](https://github.com/anuraghazra/github-readme-stats) 
