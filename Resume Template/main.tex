@@ -1,0 +1,171 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage{comment}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Alvaro Humberto}{Quiñonez Rodríguez}
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+  
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-15mm}
+
+\begin{center}
+\begin{tabular}{ c c c c }
+ \faLinkedin\enspace \href{https://www.linkedin.com/in/alvarohqr/}{alvarohqr} &\faEnvelopeO\enspace \href{mailto:#1}{alvaorhqr@gmail.com} & \faGithub\enspace \href{https://github.com/alvarohqr}{alvarohqr} &  \faMobile\enspace +52 644-141-2961\\  
+\end{tabular}
+\end{center}
+
+\section{EDUCATION}
+{\customcventry{February 2023}{Master of Science in Engineering}{Sonora Institute of Technology}{Cd. Obregón, SON}{}{}}
+
+{\customcventry{June 2019}{Bachelor in Mechatronics Engineering}{Sonora Institute of Technology}{Cd. Obregón, SON}{}{}}
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}
+    \item{Git, MATLAB, Audodesk Eagle, Proteus, Arduino, Microsoft Office, Visual Studio Code, Latex.}
+    \item{C, Python, C++ (beginner).}
+    \item{Multimeter, Oscilloscope, Logic Analyzer.}
+\end{itemize}
+
+\section{PERSONAL SKILLS}
+\begin{multicols}{3}
+    \begin{itemize}
+        \item{Teamwork.}
+        \item{Adaptability.}
+        \item Fast Learner.
+        \item{Analytic Capability}
+        \item{Problem Solving.} 
+        \item{Proactive Learning.}
+    \end{itemize}
+\end{multicols}
+    
+    
+\section{ACADEMIC PROJECTS}
+
+{\customcvproject{IoT Weather Station}{Bacherlor's Thesis}
+  {\begin{itemize}
+    \item ESP32 reading meteorological parameters from analog and $I^2C$ sensors.
+    \item Use of MQTT protocol for send data to a local broker (Raspberry Pi).
+    \item Collect the data into a MySQL dabatabase and displayed on a website.
+  \end{itemize}
+  }}
+{\customcvproject{Smart Traffic Light System}{Embedded RTOS final project}
+{\begin{itemize}
+  \item Implente a series of task to determine in real time the status, number and distance between cars, and the temperature at a given traffic light with a ESP8266 and the FreeRTOS.
+  \item Send data via MQTT and collected into a non-relational database.
+  \item The end user must have the option to manually set the traffic light status.
+\end{itemize}
+}}
+{\customcvproject{Low-cost and Low-Power Air Quality and Weather Station}{Masters Thesis}
+{\begin{itemize}
+  \item MSP430FR5529LP periodically communicating with $I^2C$ and UART sensors.
+  \item Transfer the data via a LoRa transceiver module (SPI) to The Things Stack service then forwarded via MQTT to a local server on the Raspberry Pi.
+  \item After the data transfer the MCU enters sleep mode and wakes up ten minutes later.
+\end{itemize}
+}}
+    \textit{\textbf{Programming Languages:} C++, Python, JS, PHP \& HTML/CCS.}\\
+    \textit{\textbf{Protocols/Standards:} MQTT, $I{^2}C$, SPI, UART.}
+
+
+\section{COURSES}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+    	    \begin{itemize}
+                \item IoT Embedded System Design (ITSON).
+                \item TALLER CONTROL DE VERSIONES CON Git y GitHub (UTMACH).
+                \item \href{https://www.udemy.com/certificate/UC-53d5c877-04d2-4b79-ab2c-2dc091caf41d/}{Microcontroller Embedded C Programming: Absolute Beginners (Udemy)}.
+                \item \href{https://www.udemy.com/certificate/UC-a0c51e31-a412-4255-9dbe-035201b0c226/}{Advanced C Programming Course (Udemy)}.
+                \item \href{https://www.udemy.com/certificate/UC-c83b1e33-8fa8-4c80-9ff5-60deabb5e3f2/}{Beginning C++ Programming - From Beginner to Beyond (Udemy)}.
+                \item \href{https://www.credly.com/badges/3ced7099-d631-4f90-bdfe-5238bf774d04/public_url}{Applied Analytics Using SAS Enterprise Miner (SAS)}.
+            \end{itemize}
+            }
+\end{minipage}%
+      
+
+\bigbreak
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template.tex'.
